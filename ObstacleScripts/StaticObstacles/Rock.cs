@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProLabHazine
+{
+    public class Rock : StaticObstacle
+    {
+        public Rock(int x, int y, int obstacleXSize, int obstacleYSize, int seasonType) : 
+                    base(x, y, obstacleXSize, obstacleYSize, seasonType)
+        {
+            obstacleName = "Kaya";
+        }
+    }
+}
